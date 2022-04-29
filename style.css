@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  background-color: #42b883;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.inputs{
+  background-color: #f8b400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+input{
+  border: none;
+  outline: none;
+  width: 300px;
+  padding: 5px;
+  font-size: 2rem;
+}
+
+.footer{
+  position: relative;
+  width: 320px;
+}
+
+.footer ul li{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  list-style: none;
+  border: 1px solid #f8b400;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer ul li .city{
+  display: flex;
+}
+
+.footer ul li:nth-child(even){
+  background-color:whitesmoke;
+}
+
+
+.par{
+  background-color: yellow;
+}
